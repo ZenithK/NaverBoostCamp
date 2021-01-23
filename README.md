@@ -23,4 +23,42 @@ parsing  HTML : 문자 각각의 의미를 해석하는 것 -> tree 구조
 Component
 padding
 border
+margin
 등으로 이루어짐.
+
+#Page Source
+HTML 문서는 html 태그로 시작해서 html 태그로 끝남.
+head는 어떤 html의 추가적인 내용을 담고 있음.
+html은 계층적인 구조다.
+
+#html 문서의 구조
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title></title>
+</head>
+<body>
+
+</body>
+</html>
+
+<div> : 요소를 추가할 수 있음.
+<style> : css 추가.
+<script> : JavaScript code 추기. 보통 html 끝에 추가하는 것이 일반적임.
+
+#Web Server
+Web Server : Software, client가 요청하는 html문서나 각종 리소스를 전달하는 것.
+Resource : 컴퓨터에 저장되어 있는 정적인 데이터이거나, 프로그램을 통해서 만들어진 동적인 데이터일 수 있음.
+Web croller : 다른 웹 사이트 정보를 읽어갈 때, 사용하는 프로그램.
+
+Apache, Nginx, Microsoft, Google WebServer 등이 가장 많이 사용 됨.
+
+#WAS (Web Application Server)
+client는 서비스를 제공하는 서버에게 정보를 요청하여 응답 받은 결과를 사용.
+
+DBMS(Database Management System) : 다수의 사용자들이 데이터베이스 내의 데이터를 접근할 수 있도록 해주는 소프트웨어.
+
+MiddleWare : Client와 DBMS 사이의 서버.
+(WAS도 MiddleWare의 한 종류.)
