@@ -62,3 +62,45 @@ DBMS(Database Management System) : 다수의 사용자들이 데이터베이스 
 
 MiddleWare : Client와 DBMS 사이의 서버.
 (WAS도 MiddleWare의 한 종류.)
+
+#HTML tags
+tag의 종류
+- 링크
+- 이미지
+- 목록
+- 제목
+
+#HTML latout tags
+- header
+- section
+- nav
+- footer
+- aside
+
+#CSS 상속 우선순위 결정
+- width, height, margin, padding, border 등과 같은 박스 모델- 상속 X
+- 상위 엘리먼트가 하위 엘리먼트에 상속됨.
+- inline > internal == external CSS
+- id > class > element
+
+#CSS selector
+span{} - element
+#spantag{} - id
+#.spanclass - class
+
++ css에 Web font를 사용할 수도 있음
+
+#Element가 배치되는 방식 (layout; lendering)
+- span 같은 tag는 좌->우로 흐름
+- display (block, inline, inline-block)
+- position (static, absolute, relative, fixed)
+- float (left, right)
+
+inline : 옆으로 흐르는 Element
+static : 순서대로 배치
+absolute : 특정한 위치에 배치 가능 (static이 아닌 position이 기준점)
+- top, left 값을 무조건 입력하는 것이 좋음.
+
+- margin으로 배치를 다르게 할 수 있음.
+
+- 기본 배체에서 벗어나서 떠있는 방법 (float:left)
