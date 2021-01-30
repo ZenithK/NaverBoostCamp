@@ -103,4 +103,16 @@ absolute : 특정한 위치에 배치 가능 (static이 아닌 position이 기�
 
 - margin으로 배치를 다르게 할 수 있음.
 
-- 기본 배체에서 벗어나서 떠있는 방법 (float:left)
+#기본 배체에서 벗어나서 떠있는 방법 (float:left)
+
+- float 속성으로 원래 flow에서 벗어날 수 있음.
+-> float 속성을 사용하면 더 다양한 구조를 만들 수 있음.
+
+#Block Element
+- Content, padding, border(테두리), margin -> BOX Model + Box-shadow
+- CSS lendering이 다양하게 나올 수 있음.
+- Element의 크기는 부모의 크기가 기본 (width:100% = 부모의 크기)
+- padding값을 늘리면 box-sizing:content-box = 글자 크기 커짐,
+  box-sizing:border-box = 글자 크기 유지
+
+#
