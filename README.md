@@ -32,21 +32,21 @@ head는 어떤 html의 추가적인 내용을 담고 있음.
 html은 계층적인 구조다.
 
 #html 문서의 구조
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title></title>
-</head>
-<body>
+1<!DOCTYPE html>
+1<html>
+1<head>
+1  <meta charset="utf-8">
+1  <meta name="viewport" content="width=device-width">
+1  <title></title>
+1</head>
+1<body>
 
 </body>
 </html>
 
-<div> : 요소를 추가할 수 있음.
-<style> : css 추가.
-<script> : JavaScript code 추기. 보통 html 끝에 추가하는 것이 일반적임.
+1<div> : 요소를 추가할 수 있음.
+1<style> : css 추가.
+1<script> : JavaScript code 추기. 보통 html 끝에 추가하는 것이 일반적임.
 
 #Web Server
 Web Server : Software, client가 요청하는 html문서나 각종 리소스를 전달하는 것.
@@ -115,4 +115,23 @@ absolute : 특정한 위치에 배치 가능 (static이 아닌 position이 기�
 - padding값을 늘리면 box-sizing:content-box = 글자 크기 커짐,
   box-sizing:border-box = 글자 크기 유지
 
-#
+#Eclipse URL mapping rule
+
+- http://localhost:8080/{ProjectName}/{URL Mapping Value}
+
+#Servlet
+
+- WAS에서 동작하는 Java Class.
+- HttpServlet Class 상속 필요.
+- Servlet and JSP를 조화롭게 사용해야 함. (웹페이지 구성 : JSP, 복잡한 프로그래밍 : Servlet)
+
+- Java Web Applicaiton : WAS에 설치되어 동작하는 어플리케이션.
+  (Servlet,package,Interface, HTML,CSS, Image, Java로 작성된 클래스 포함.)
+
+Java Web Application - Web-INF Folder  : Web.xml file, lib folder(jar files), classes folder(java package, classes)
+                     - Resources : folders, images, variety resource etc..
+
+#Servlet 작성방법.
+
+- Servlet 3.0 spec 이상 : web.xml 파일 사용 X, Java annontation O
+- Servlet 3.0 spec 미만 : web.xml파일에 Servlet을 등록.
