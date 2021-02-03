@@ -135,3 +135,9 @@ Java Web Application - Web-INF Folder  : Web.xml file, lib folder(jar files), cl
 
 - Servlet 3.0 spec 이상 : web.xml 파일 사용 X, Java annontation O
 - Servlet 3.0 spec 미만 : web.xml파일에 Servlet을 등록.
+
+#Servlet life cycle
+
+- Servlet 객체가 여러 번 생성되지 않고, Service method만 계속 호출.
+- destroy method는 기존 Servlet을 변경하여 새로운 Servlet을 생성해야 할 때, 호출됨.
+-
